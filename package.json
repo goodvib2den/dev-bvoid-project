@@ -2,11 +2,15 @@
   "name": "the_void_web",
   "version": "1.0.0",
   "description": "bvoid 자체 웹페이지 제작",
-  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "(https://github.com/goodvib2den/dev-bvoid-project)"
   },
+  "scripts": {
+    "server": "node index.js"
+  },
   "author": "Jimin Park<gmean7@gmail.com>",
-  "license": "bvoid"
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
