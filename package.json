@@ -7,7 +7,7 @@
     "url": "(https://github.com/goodvib2den/dev-bvoid-project)"
   },
   "scripts": {
-    "server": "nodemon --exec babel-node index.js"
+    "dev": "nodemon --exec babel-node src/server.js"
   },
   "author": "Jimin Park<gmean7@gmail.com>",
   "dependencies": {
