@@ -4,6 +4,7 @@ import morgan from "morgan";
 // Routers
 import globalRouter from "./router/globalRouter";
 import artworksRouter from "./router/artworksRouter";
+import contentRouter from "./router/contentRouter";
 
 const PORT = 4000;
 
@@ -15,6 +16,7 @@ app.use(logger);
 // root URL
 app.use("/", globalRouter);
 app.use("/artworks", artworksRouter);
+app.use("/content", contentRouter);
 
 const handleListening = () =>
   console.log(`✅ Server listeting on port ${PORT}`);
