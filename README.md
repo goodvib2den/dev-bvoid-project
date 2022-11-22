@@ -43,23 +43,6 @@ bvoid 브랜드 성격에 맞춰 웹사이트를 자체 제작해야할 필요�
 
 ---
 
-## 3. URL
+## 3. 페이지 구조 설정
 
-### 페이지 구조
-
-/
-
-/artwork  
-/artwork/frame  
-/artwork/object  
-/artwork/textile  
-/artwork/toy  
-/artwork/homeware  
-/artwork/edition
-
-/artist
-
-### 유저 로그인 관련
-
-/join  
-/login
+    Home (/)
