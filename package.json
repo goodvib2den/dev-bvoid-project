@@ -1,10 +1,10 @@
 {
-  "name": "the_void_web",
+  "name": "express_project",
   "version": "1.0.0",
-  "description": "bvoid 자체 웹페이지 제작",
+  "description": "My first express project",
   "repository": {
     "type": "git",
-    "url": "(https://github.com/goodvib2den/dev-bvoid-project)"
+    "url": "(https://github.com/goodvib2den/first-express-project)"
   },
   "scripts": {
     "dev": "nodemon --exec babel-node src/server.js"
